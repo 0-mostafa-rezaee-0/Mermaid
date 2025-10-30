@@ -1,18 +1,37 @@
-<h1 align="center"><b>Mermaid: Fast Practical Tutorial</b></h1>
 
-# 1. Big picture
+<h1 align="center"><b>Mermaid</b></h1>
+<h1 align="center"><b>Diagramming and charting tool</b></h1>
+
+<div align="center">
+    <img src="images/banner.png" alt="banner" width="50%">
+</div>
+
+# Table of contents
+- [1. Quick start](#1-quick-start)
+- [2. Big picture](#2-big-picture)
+- [3. How it works (intuitive)](#3-how-it-works-intuitive)
+- [4. Real-world examples for AI/Data/EdTech](#4-real-world-examples-for-aidataedtech)
+- [5. Minimal syntax you’ll actually use](#5-minimal-syntax-youll-actually-use)
+- [6. Essential usage patterns](#6-essential-usage-patterns)
+- [7. Go to the examples](#7-go-to-the-examples)
+- [8. Key takeaways](#8-key-takeaways)
+- [9. Best links (only what you need)](#9-best-links-only-what-you-need)
+- [10. Repo contents](#10-repo-contents)
+
+# 1. Quick start
+- Open the Live Editor: `https://mermaid.live` (paste any snippet and export PNG/SVG).
+- In Cursor, install extensions for a smooth workflow:
+  - Markdown Preview Mermaid Support (publisher: bierner)
+  - Mermaid Markdown Syntax Highlighting (publisher: bpruitt-goddard)
+- In any `.md` file, add a ```mermaid fence and open Markdown Preview (to the side) to see diagrams render.
+
+# 2. Big picture
 Mermaid is a text-to-diagram tool. You write concise plain text; it renders flowcharts, sequence diagrams, Gantt charts, ER diagrams, and more. It matters because you can keep diagrams versioned in Git, review them in PRs, automate generation in CI, and embed them in Markdown (GitHub, docs, wikis) with almost zero friction.
 
-# 2. How it works (intuitive)
+# 3. How it works (intuitive)
 - **You write Markdown code fences** with the `mermaid` language.
 - **A renderer** (GitHub, VS Code/Cursor preview, or mermaid.live/CLI) parses the text and draws the diagram.
 - **Edit text → diagram updates** instantly; no drag-and-drop or binary diagram files.
-
-# 3. Quick start (viewing diagrams)
-- **GitHub/Code hosts**: Just push `.md` files with mermaid fences.
-- **Cursor/VS Code**: Open any `.md` and use Markdown Preview — it renders Mermaid.
-- **Browser**: Use `https://mermaid.live` to paste and export SVG/PNG.
-- **Optional CLI**: `@mermaid-js/mermaid-cli` can export images (PNG/SVG/PDF) from files.
 
 # 4. Real-world examples for AI/Data/EdTech
 See `examples/` for copy-pasteable snippets:
